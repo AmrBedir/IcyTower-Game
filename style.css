@@ -1,0 +1,68 @@
+html, body{
+    height: 100%;
+    overflow: hidden;
+}
+*{
+    margin: 0;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.wall{
+    outline: 0.2vw solid black;
+    z-index: 2;
+    background-color: darkblue;
+    width: 15%;
+    height: 100%;
+}
+#game_container{
+    outline: 0.4vw solid black;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    background-color: skyblue;
+    width: 70%;
+    height: 100%;
+}
+#player{
+    height: 7vw;
+    width: 4vw;
+}
+#score{
+    font-size: 3vw;
+    color: white;
+}
+#floor{
+    outline: 0.2vw solid black;
+    width: 100%;
+    height: 7vw;
+    background-color: darkblue;
+}
+.bar{
+    outline: 0.2vw solid black;
+    background-color: darkblue;
+    width: 50%;
+    height: 100%;
+}
+#game{
+    width: 100%;
+    display: flex;
+    outline: 0.2vw solid black;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+.bar_container{
+    margin: 5vw 0;
+    height: 4vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
